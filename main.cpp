@@ -9,8 +9,6 @@ int main() {
     m();
     return 0;
 }
-
-
 void m(){
     IplImage* img = cvLoadImage("/home/gesandte/Downloads/123.png",1);
     IplImage* resImg = cvCreateImage(cvSize(img->width*3, img->height*3),8,3);
